@@ -1,0 +1,108 @@
+(footprint "HSS-B20-NPS-01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9b94c21c-4c1e-47e3-be0b-6056b11eb0a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HSS-B20-NPS-01"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1217175-e00f-4631-b2f7-fde1cb4caf98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "543ddf96-f7b1-495c-a953-c58c5c3efbd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83b4178d-b21d-4f23-99a0-f4d11be0dafa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy 12.7 -6.35) (xy 12.7 6.35) (xy -12.7 6.35) (xy -12.7 -6.35) (xy -11.5 -6.35) (xy -11.5 5.372448)
+			(xy 11.669912 5.372448) (xy 11.659643 -6.35)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "17655d17-8939-42ca-be4a-1632069ccfa3")
+	)
+	(fp_text user "Heatsink"
+		(at -3.5 4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bba835f7-1af3-45c8-9a3b-f2d4cf4df87d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2feae69a-cc41-45a0-b048-58cbfaa0b1ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/ECE462L.pretty/HSS-B20-NPS-01.step"
+		(offset
+			(xyz 0 -6.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -180)
+		)
+	)
+)
